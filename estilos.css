@@ -16,6 +16,10 @@ h1{
     background-color: whitesmoke;
     text-align: center;
 }
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
 
 header{
     font-size: 16px;
@@ -57,8 +61,8 @@ header{
 }
 
 .encabezado__barra a:hover{
-    color: gray;
     text-decoration: underline;
+    color: gray;
 }
 
 video{
@@ -188,7 +192,6 @@ h3{
 .sec{
     height: 10px;
     width: 100%;
-    background-color: grey;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -258,4 +261,17 @@ iframe{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: capitalize;
+}
+
+.inisesion{
+    text-align: right;
+    text-transform: none;
+    text-decoration: none;
+    height: 10px;
+}
+
+.crearcuenta{
+    text-align: left;
+    text-decoration: none;
+    text-transform: none;
 }
