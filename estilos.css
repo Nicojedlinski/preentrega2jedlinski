@@ -71,6 +71,7 @@ video{
     width: 50%;
 }
 
+
 .vid{
     height: 100%;
     width: auto;
@@ -126,7 +127,8 @@ form{
     height: 150 px;
     width: 100%;
     background-color: whitesmoke;
-    text-align: left
+    text-align: left;
+    margin: 5px;
 }
 
 .title{
@@ -202,8 +204,11 @@ h3{
 
 img{
     padding: 10px;
+    margin: 10px;
     
 }
+
+
 
 .nosotros{
     width: 100%;
@@ -214,7 +219,32 @@ img{
 h2{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    animation-name: aprovecha;
+    animation-duration: 7s;
 }
+
+@keyframes aprovecha {
+    0%{
+        text-transform: capitalize;
+        text-decoration:none
+
+    }
+
+    50%{
+        
+        text-decoration: solid;
+        height: 40px;
+        
+    }
+
+    100%{
+        background-color: none;
+        text-decoration: none;
+        text-transform: none;
+        height: 20px;
+    }
+}
+
 
 .nleft{
     background-image: url(img/closet-gd908c1d19_1920.jpg);
@@ -274,4 +304,46 @@ iframe{
     text-align: left;
     text-decoration: none;
     text-transform: none;
+}
+
+.imagenescontacto{
+    display: flex;
+    margin: 20px;
+}
+
+.parrafocontacto{
+    margin: 5px;
+}
+
+.nico{
+    margin: 5px;
+}
+
+.nico2{
+    margin: 5px;
+}
+
+.animacion{
+    text-decoration: none;
+    animation-name: cambiarcolor1;
+    animation-duration: 10s;
+}
+
+@keyframes cambiarcolor1 {
+    0%{
+        text-transform: capitalize;
+        text-decoration: underline;
+
+    }
+
+    50%{
+        
+        text-decoration: solid;
+        
+    }
+
+    100%{
+        background-color: none;
+        text-decoration: none;
+    }
 }
