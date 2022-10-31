@@ -348,11 +348,11 @@ iframe{
     }
 }
 
-@media only screen and (min-width:100) and (max-width:320px){
+@media only screen and (max-width:350px){
     .inisesion{
         text-align: right;
         margin: 2px;
-        width: 10%;
+        width: 30%;
     }
 
     body{
