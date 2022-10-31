@@ -366,11 +366,11 @@ iframe{
         align-content: center;
         image-orientation: initial;
         text-align: center;
+        background-size: cover;
     }
     
     iframe{
         align-self: center;
-        
     }
 }
 
@@ -385,6 +385,7 @@ iframe{
     }
     .imagenes{
         background-position: center;
+        background-size: cover;
         width: 30%;
     }
 
