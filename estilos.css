@@ -349,34 +349,44 @@ iframe{
     }
 }
 
-@media only screen and (max-width:350px){
+@media only screen and (min-width:350px){
     .inisesion{
         text-align: right;
         margin: 2px;
-        width: 30%;
+        width: 10%;
     }
 
     body{
         margin: 2px;
         text-decoration: none;
-        text-size-adjust: 50%;
     }
 
     .imagenes{
-        height: 200px;
-        width: 200px;
+        height: 310px;
+        width: 100%;
         align-content: center;
         image-orientation: initial;
         text-align: center;
         background-size: cover;
+        background-position: center;
     }
     
-    iframe{
+    .iframe{
         align-self: center;
+        background-size: cover;
+        background-position: center;
+        align-items: center;
     }
+    .imagenes1{
+        height: 500px;
+        width: 100%;
+        background-position: center;
+        background-size: contain;
+    }
+    
 }
 
-@media only screen and (max-width:1024px){
+@media only screen and (min-width:1024px){
     .inisesion{
         text-align: right;
         margin: 10px;
