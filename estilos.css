@@ -220,8 +220,10 @@ img{
 h2{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    height: 20px;
     animation-name: aprovecha;
     animation-duration: 7s;
+    text-transform:capitalize
 }
 
 @keyframes aprovecha {
@@ -363,7 +365,7 @@ iframe{
 
     .imagenes{
         height: 310px;
-        width: 100%;
+        width: 100px;
         align-content: center;
         image-orientation: initial;
         text-align: center;
@@ -379,7 +381,7 @@ iframe{
     }
     .imagenes1{
         height: 500px;
-        width: 100%;
+        width: 100px;
         background-position: center;
         background-size: contain;
     }
@@ -444,4 +446,10 @@ carousel-inner img{
 
 .sec{
     width: 100%;
+}
+
+.imagenes{
+    background-position: center;
+    width: 350px;
+    margin: 10px;
 }
